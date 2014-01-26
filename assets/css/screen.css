@@ -784,49 +784,6 @@ margin on the iframe, cause it breaks stuff. */
     top: -33px;
 }
 
-/* ==========================================================================
-   NAVIGATION
-   ========================================================================== */
-
-.navlink {
-    display: inline-block;
-    margin: 0 10px;
-    border: #EBF2F6 2px solid;
-    text-decoration: none;
-    border-radius: 30px;
-    transition: all ease 0.3s;
-    -webkit-box-shadow: 3px 3px 30px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 3px 3px 30px 0px rgba(0,0,0,0.75);
-    box-shadow: 3px 3px 30px 0px rgba(0,0,0,0.75);
-}
-
-.navlink:hover {
-    /*border: #9EABB3 2px solid;*/
-    -webkit-box-shadow: 3px 3px 30px 0px #fff;
-    -moz-box-shadow: 3px 3px 30px 0px #fff;
-    box-shadow: 3px 3px 30px 0px #fff;
-
-    transition: all ease 0.3s;
-}
-
-.navigation a {
-    padding: 0 10px;
-    font-family: 'Open Sans', sans-serif;
-    color: #fff;
-    text-decoration: none;
-}
-
-.social {
-    padding-left: 382px;
-}
-
-.social a {
-    padding-left: 56px;
-    text-decoration: none;
-}
-
-
-
 
 /* ==========================================================================
    9. Media Queries - Smaller than 900px

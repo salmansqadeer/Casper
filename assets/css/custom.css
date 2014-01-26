@@ -1,0 +1,46 @@
+.inner {
+  max-width: 900px; }
+
+.navbar {
+  margin: 0 30px;
+  font-family: 'Open Sans', sans-serif; }
+  .navbar .header {
+    float: left;
+    display: inline-block;
+    margin: 30px 10px;
+    font-size: 1.3em; }
+  .navbar a {
+    float: right;
+    display: inline-block;
+    border: #9eabb3 2px solid;
+    color: #9eabb3;
+    padding: 0 10px;
+    margin: 30px 10px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all ease 0.3s;
+    text-decoration: none; }
+    .navbar a:hover {
+      color: #57a3e8;
+      border: #57a3e8 2px solid;
+      transition: all ease 0.3s; }
+
+.masthead {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  background-image: url("../images/transpBlack50.png");
+  background-repeat: repeat;
+  padding: 15px; }
+
+.social {
+  padding-left: 382px; }
+  .social a {
+    padding-left: 56px;
+    text-decoration: none; }
+  .social img {
+    width: 64px;
+    -webkit-filter: grayscale(0%);
+    transition: all ease 0.3s; }
+    .social img:hover {
+      -webkit-filter: grayscale(100%);
+      transition: all ease 0.3s; }
