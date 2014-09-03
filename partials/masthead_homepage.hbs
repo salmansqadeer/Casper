@@ -1,22 +1,5 @@
 
-{{! Primary Navigation}}
-
-<div class="navbar">
-
-    <div class="header">
-        <strong>PerpetuallyBeta</strong>
-    </div>
-
-    <a href="/about-me">About Me</a>
-    
-    <!-- <a href="/">Portfolio</a> -->
-    <a href="http://www.instagram.com/salmansq">Sketchbook</a>
-    <a href="/">Writing</a>
-    <!-- <a href="/about-me">Contact</a> -->
-</div>
-
-
-{{! The big featured header, with the site logo, description, and primary Navigation }}
+{{! The big featured header for the Homepage, with the tagline }}
 
 <header class="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
     <div class="vertical">

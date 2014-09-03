@@ -32,6 +32,16 @@
   background-repeat: repeat;
   padding: 15px; }
 
+.site-head-small {
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 20%;
+  margin-bottom: 5rem;
+  color: #fff;
+  background: #303538 no-repeat center center;
+  background-size: cover; }
+
 .social {
   padding-left: 382px; }
   .social a {

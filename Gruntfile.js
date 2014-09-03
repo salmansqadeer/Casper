@@ -54,6 +54,7 @@ module.exports = function(grunt) {
                 files: {
                     '<%= paths.css %>/style.css': '<%= paths.scss %>/style.scss',
                     '<%= paths.css %>/custom.css': '<%= paths.scss %>/custom.scss',
+                    '<%= paths.css %>/custom_mobile.css': '<%= paths.scss %>/custom_mobile.scss',
                     '<%= paths.css %>/ie.css': '<%= paths.scss %>/ie.scss'
                 }
             }
